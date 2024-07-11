@@ -1,6 +1,6 @@
-LAM-ESC and LAM-Recombination analysis scripts:
+# LAM-ESC and LAM-Recombination analysis scripts:
 
-LAM-ESC Script README:
+## LAM-ESC Script README:
 
 Time required to download script and dependencies: Approximately 5 minutes
 Time required to run on a typical sample: <30 minutes
@@ -76,7 +76,7 @@ A summary file with counts of each SJ detected, generated from the *_blast_resul
 
 
 
-LAM-Recombination script README:
+## LAM-Recombination script README:
 
 Time required to download script and dependencies: Approximately 5 minutes
 Time required to run on a typical sample: <30 minutes
@@ -147,6 +147,10 @@ This contains the top SJ blast hit for each read (based on e value score); reads
 
 *_Rec_summary_unique_e_val.txt
 A summary file with counts of each recombination event detected, generated from the *_blast_result_top_hit_e_val.tsv files; useful to filter out ambiguous deletional/inversional SJs
+
+## License
+
+**This project is licensed under the MIT License - see the LICENSE file for details.**
 
 
 
