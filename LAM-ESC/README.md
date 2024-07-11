@@ -30,9 +30,6 @@ System requirements:
 This script has been run and tested on an Ubuntu 22.04 machine with an Intel i7-6700K processor and 16 GB RAM, using versions of FLASH and blastn compiled for linux (Intel).
 
 
-
-Required: 
-
 Workflow:
 1. R1 and R2 reads from Fastq files are joined using FLASH to generate a single overlapping read (if possible; if not, the R1 read is analysed)
 2. Reads are demultiplexed based on each J RSS (or KDE) primer based on a simple sequence match
