@@ -1,7 +1,7 @@
 # LAM-ESC and LAM-Recombination:
 ## Overview
 
-LAM-ESC and LAM-Recombination are derived from the linear amplification-mediated high-throughput genome-wide translocation sequencing (LAM-HTGTS) assay and employ linear amplification with biotinylated primers targeting J regions across VJ coding junctions or ESC signal joints (SJs). Biotinylated amplicons are selectively enriched, ligated to adapters, and further amplified via PCR. The resulting products undergo amplicon sequencing, and the sequences are mapped to custom reference databases encompassing all possible (a) IGK/IGL recombination events or (b) IGK/IGL SJs.
+LAM-ESC and LAM-Recombination are derived from the linear amplification-mediated high-throughput genome-wide translocation sequencing (LAM-HTGTS) assay and employ linear amplification with biotinylated primers targeting J regions across VJ coding junctions or ESC signal joints (SJs). Biotinylated amplicons are selectively enriched, ligated to adapters, and further amplified via PCR. The resulting products undergo amplicon sequencing, and the sequences are mapped using lam_esc_script.py and lam_rec_script.py to custom reference databases encompassing all possible (a) IGK/IGL recombination events or (b) IGK/IGL SJs.
 
 ## LAM-ESC Script README:
 
